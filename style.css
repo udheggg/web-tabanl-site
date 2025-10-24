@@ -2,17 +2,19 @@
 header{
     display: flex;
     border: 1px;
-    background-color: red;
     background: #3F5EFB;
     background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
     color: aliceblue;
     text-align: justify;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 10px;
+    margin-right: -10%;
+    margin-left: -1%;
 }
 
 nav{
 margin-top: 30px;
-margin-left: 125px;
+margin-left: 135px;
 inset-inline-end: 10px;  
 cursor: pointer; 
 }
@@ -20,11 +22,14 @@ cursor: pointer;
 
 div{
     font-family: Arial, Helvetica, sans-serif;
+    margin-left: -10%;
+    margin-right: -10%;
     font-size: xx-large;
     text-align: center;
     border: 20px; 
     padding: 150px;  
-    background-color:#3F5EFB     
+    background-color:#3F5EFB    
+     
 }
 h3{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -34,7 +39,7 @@ h3{
 }
 button{
     background-color: rgb(18, 189, 47);
-    border: 20px;
+    border: 2px;
     border-radius:60px ;
     margin: 30px;
     padding: 15px;
@@ -57,11 +62,12 @@ section{
 h4{
     font-family:Arial, Helvetica, sans-serif;
     font-size: large;
-   padding: 10px;
+   padding: 5px;
 }
 header :hover{
-    transition: 0.3s;
+    transition: 0.4s;
     font-weight: bolder;  
+    color: black;
 }
 section div {
     display: grid;
@@ -69,5 +75,6 @@ section div {
     border-radius: 30px;
     margin-left: 20px;
 }
+ 
 
 
